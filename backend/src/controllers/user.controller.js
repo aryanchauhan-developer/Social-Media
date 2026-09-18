@@ -100,6 +100,7 @@ const loginUser = asynchandler(async(req, res) => {
   // password check
   // access and refresh token
   // send cookie (token send karva mate)
+  console.log("LOGIN BODY:", req.body);
 
   const {email, username, password} = req.body;
 
